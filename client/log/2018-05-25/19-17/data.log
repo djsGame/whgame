@@ -1,0 +1,142 @@
+[
+    {
+        "logtime": "2018/05/25 19:17:17",
+        "logdata": [
+            {
+                "main": 3,
+                "kindid": 518,
+                "len": 70,
+                "sub": 3
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 9,
+                "sub": 1
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 0,
+                "sub": 2
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 0,
+                "sub": 2
+            },
+            {
+                "main": 200,
+                "kindid": 518,
+                "len": 10,
+                "sub": 6
+            }
+        ]
+    },
+    {
+        "logtime": "2018/05/25 19:17:34",
+        "logdata": [
+            {
+                "main": 3,
+                "kindid": 518,
+                "len": 70,
+                "sub": 3
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 9,
+                "sub": 1
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 0,
+                "sub": 2
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 0,
+                "sub": 2
+            },
+            {
+                "main": 200,
+                "kindid": 518,
+                "len": 10,
+                "sub": 6
+            }
+        ]
+    },
+    {
+        "logtime": "2018/05/25 19:17:47",
+        "logdata": [
+            {
+                "main": 3,
+                "kindid": 518,
+                "len": 70,
+                "sub": 3
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 9,
+                "sub": 1
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 0,
+                "sub": 2
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 0,
+                "sub": 2
+            },
+            {
+                "main": 200,
+                "kindid": 518,
+                "len": 10,
+                "sub": 6
+            }
+        ]
+    },
+    {
+        "logtime": "2018/05/25 19:17:59",
+        "logdata": [
+            {
+                "main": 3,
+                "kindid": 518,
+                "len": 70,
+                "sub": 3
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 9,
+                "sub": 1
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 0,
+                "sub": 2
+            },
+            {
+                "main": 100,
+                "kindid": 518,
+                "len": 0,
+                "sub": 2
+            },
+            {
+                "main": 200,
+                "kindid": 518,
+                "len": 10,
+                "sub": 6
+            }
+        ]
+    }
+]

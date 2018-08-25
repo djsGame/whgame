@@ -1,0 +1,8 @@
+{
+	"cmd":["D:\Users\lip52\Documents\Cocos\CocosProjects\wanghu1\simulator\win32\wanghu.exe","D:\Users\lip52\Documents\Cocos\CocosProjects\wanghu1\client"],
+	"working_dir" : "D:\Users\lip52\Documents\Cocos\CocosProjects\wanghu1\client\base\src",
+  	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",  
+    "shell": true,
+    "encoding":"utf-8",
+    "selector":"source.lua"
+}

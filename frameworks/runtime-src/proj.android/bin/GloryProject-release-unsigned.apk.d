@@ -1,0 +1,25 @@
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\bin\GloryProject-release-unsigned.apk : \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\bin\GloryProject.ap_ \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\bin\classes.dex \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\bin\classes.jar \
+F:\bigwin\Mobile\frameworks\cocos2d-x\cocos\platform\android\java\bin\classes.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\httpmime-4.1.3.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\SocialSDK_sms.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\SocialSDK_WeiXin_1.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\libapshare.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\umeng_social_sdk.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\volley.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\android-support-v4.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\Amap_2DMap_V2.9.2_20161026.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\SocialSDK_WeiXin_2.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\pay.jar \
+F:\bigwin\Mobile\frameworks\cocos2d-x\cocos\platform\android\java\libs\android-async-http-1.4.8.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\bugly_crash_release.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\alipaySdk-20160223.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\AMap_Location_V3.1.0_20161027.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\SocialSDK_alipay.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\bugly_agent.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\thirdlib\umeng_android\libs\bolts-android-1.1.4.jar \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\armeabi-v7a\libBugly.so \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\armeabi-v7a\libmp3lame.so \
+F:\bigwin\Mobile\frameworks\runtime-src\proj.android\libs\armeabi-v7a\libqpry_lua.so \

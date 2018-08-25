@@ -1,0 +1,1409 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="kuangbao.luaprj" Cmd="F:\G201122BGW\Mobile\run\debug\win32\GloryProject.exe" Arg="F:\G201122BGW\Mobile\client" Dir="F:\G201122BGW\Mobile\client" Toggle="false" >
+    <Filter RelativePath=".\client" Toggle="false" >
+        <Filter RelativePath=".\base" Toggle="false" >
+            <Filter RelativePath=".\res" Toggle="false" >
+                <Filter RelativePath=".\fonts" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\src" Toggle="false" >
+                <LuaFile RelativePath=".\config.lua" />
+                <LuaFile RelativePath=".\main.lua" />
+                <Filter RelativePath=".\app" Toggle="false" >
+                    <LuaFile RelativePath=".\MyApp.lua" />
+                    <Filter RelativePath=".\controllers" Toggle="true" >
+                        <LuaFile RelativePath=".\ClientUpdate.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\models" Toggle="false" >
+                        <LuaFile RelativePath=".\AppDF.lua" />
+                        <LuaFile RelativePath=".\bit.lua" />
+                        <LuaFile RelativePath=".\ClientConfig.lua" />
+                        <LuaFile RelativePath=".\Version.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\Toolkits" Toggle="false" >
+                        <LuaFile RelativePath=".\TimerProxy.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\views" Toggle="false" >
+                        <LuaFile RelativePath=".\WelcomeScene.lua" />
+                        <Filter RelativePath=".\layer" Toggle="false" >
+                            <Filter RelativePath=".\other" Toggle="false" >
+                                <LuaFile RelativePath=".\PopWait.lua" />
+                                <LuaFile RelativePath=".\QueryDialog.lua" />
+                                <LuaFile RelativePath=".\Toast.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\cocos" Toggle="true" >
+                    <LuaFile RelativePath=".\init.lua" />
+                    <Filter RelativePath=".\3d" Toggle="false" >
+                        <LuaFile RelativePath=".\3dConstants.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\cocos2d" Toggle="false" >
+                        <LuaFile RelativePath=".\bitExtend.lua" />
+                        <LuaFile RelativePath=".\Cocos2d.lua" />
+                        <LuaFile RelativePath=".\Cocos2dConstants.lua" />
+                        <LuaFile RelativePath=".\deprecated.lua" />
+                        <LuaFile RelativePath=".\DeprecatedCocos2dClass.lua" />
+                        <LuaFile RelativePath=".\DeprecatedCocos2dEnum.lua" />
+                        <LuaFile RelativePath=".\DeprecatedCocos2dFunc.lua" />
+                        <LuaFile RelativePath=".\DeprecatedOpenglEnum.lua" />
+                        <LuaFile RelativePath=".\DrawPrimitives.lua" />
+                        <LuaFile RelativePath=".\functions.lua" />
+                        <LuaFile RelativePath=".\json.lua" />
+                        <LuaFile RelativePath=".\luaj.lua" />
+                        <LuaFile RelativePath=".\luaoc.lua" />
+                        <LuaFile RelativePath=".\Opengl.lua" />
+                        <LuaFile RelativePath=".\OpenglConstants.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\cocosbuilder" Toggle="false" >
+                        <LuaFile RelativePath=".\CCBReaderLoad.lua" />
+                        <LuaFile RelativePath=".\DeprecatedCocosBuilderClass.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\cocosdenshion" Toggle="false" >
+                        <LuaFile RelativePath=".\AudioEngine.lua" />
+                        <LuaFile RelativePath=".\DeprecatedCocosDenshionClass.lua" />
+                        <LuaFile RelativePath=".\DeprecatedCocosDenshionFunc.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\cocostudio" Toggle="false" >
+                        <LuaFile RelativePath=".\CocoStudio.lua" />
+                        <LuaFile RelativePath=".\DeprecatedCocoStudioClass.lua" />
+                        <LuaFile RelativePath=".\DeprecatedCocoStudioFunc.lua" />
+                        <LuaFile RelativePath=".\StudioConstants.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\controller" Toggle="false" >
+                        <LuaFile RelativePath=".\ControllerConstants.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\extension" Toggle="false" >
+                        <LuaFile RelativePath=".\DeprecatedExtensionClass.lua" />
+                        <LuaFile RelativePath=".\DeprecatedExtensionEnum.lua" />
+                        <LuaFile RelativePath=".\DeprecatedExtensionFunc.lua" />
+                        <LuaFile RelativePath=".\ExtensionConstants.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\framework" Toggle="false" >
+                        <LuaFile RelativePath=".\audio.lua" />
+                        <LuaFile RelativePath=".\device.lua" />
+                        <LuaFile RelativePath=".\display.lua" />
+                        <LuaFile RelativePath=".\init.lua" />
+                        <LuaFile RelativePath=".\package_support.lua" />
+                        <LuaFile RelativePath=".\transition.lua" />
+                        <Filter RelativePath=".\components" Toggle="false" >
+                            <LuaFile RelativePath=".\event.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\extends" Toggle="false" >
+                            <LuaFile RelativePath=".\LayerEx.lua" />
+                            <LuaFile RelativePath=".\MenuEx.lua" />
+                            <LuaFile RelativePath=".\NodeEx.lua" />
+                            <LuaFile RelativePath=".\SpriteEx.lua" />
+                            <LuaFile RelativePath=".\UICheckBox.lua" />
+                            <LuaFile RelativePath=".\UIEditBox.lua" />
+                            <LuaFile RelativePath=".\UIListView.lua" />
+                            <LuaFile RelativePath=".\UIPageView.lua" />
+                            <LuaFile RelativePath=".\UIScrollView.lua" />
+                            <LuaFile RelativePath=".\UISlider.lua" />
+                            <LuaFile RelativePath=".\UITextField.lua" />
+                            <LuaFile RelativePath=".\UIWidget.lua" />
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\network" Toggle="false" >
+                        <LuaFile RelativePath=".\DeprecatedNetworkClass.lua" />
+                        <LuaFile RelativePath=".\DeprecatedNetworkEnum.lua" />
+                        <LuaFile RelativePath=".\DeprecatedNetworkFunc.lua" />
+                        <LuaFile RelativePath=".\NetworkConstants.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\physics3d" Toggle="false" >
+                        <LuaFile RelativePath=".\physics3d-constants.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\spine" Toggle="false" >
+                        <LuaFile RelativePath=".\SpineConstants.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\ui" Toggle="false" >
+                        <LuaFile RelativePath=".\DeprecatedUIEnum.lua" />
+                        <LuaFile RelativePath=".\DeprecatedUIFunc.lua" />
+                        <LuaFile RelativePath=".\experimentalUIConstants.lua" />
+                        <LuaFile RelativePath=".\GuiConstants.lua" />
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\packages" Toggle="true" >
+                    <Filter RelativePath=".\mvc" Toggle="false" >
+                        <LuaFile RelativePath=".\AppBase.lua" />
+                        <LuaFile RelativePath=".\init.lua" />
+                        <LuaFile RelativePath=".\ViewBase.lua" />
+                    </Filter>
+                </Filter>
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\ciphercode" Toggle="true" >
+            <Filter RelativePath=".\base" Toggle="false" >
+                <Filter RelativePath=".\res" Toggle="false" >
+                    <Filter RelativePath=".\fonts" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\src" Toggle="false" >
+                    <Filter RelativePath=".\app" Toggle="false" >
+                        <Filter RelativePath=".\controllers" Toggle="true" />
+                        <Filter RelativePath=".\models" Toggle="true" />
+                        <Filter RelativePath=".\Toolkits" Toggle="true" />
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <Filter RelativePath=".\other" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\cocos" Toggle="false" >
+                        <Filter RelativePath=".\3d" Toggle="true" />
+                        <Filter RelativePath=".\cocos2d" Toggle="true" />
+                        <Filter RelativePath=".\cocosbuilder" Toggle="true" />
+                        <Filter RelativePath=".\cocosdenshion" Toggle="true" />
+                        <Filter RelativePath=".\cocostudio" Toggle="true" />
+                        <Filter RelativePath=".\controller" Toggle="true" />
+                        <Filter RelativePath=".\extension" Toggle="true" />
+                        <Filter RelativePath=".\framework" Toggle="false" >
+                            <Filter RelativePath=".\components" Toggle="true" />
+                            <Filter RelativePath=".\extends" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\network" Toggle="true" />
+                        <Filter RelativePath=".\physics3d" Toggle="true" />
+                        <Filter RelativePath=".\spine" Toggle="true" />
+                        <Filter RelativePath=".\ui" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\packages" Toggle="false" >
+                        <Filter RelativePath=".\mvc" Toggle="true" />
+                    </Filter>
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\client" Toggle="false" >
+                <Filter RelativePath=".\res" Toggle="false" >
+                    <Filter RelativePath=".\Agent" Toggle="true" />
+                    <Filter RelativePath=".\Bag" Toggle="true" />
+                    <Filter RelativePath=".\Bank" Toggle="true" />
+                    <Filter RelativePath=".\BankRecord" Toggle="true" />
+                    <Filter RelativePath=".\Binding" Toggle="true" />
+                    <Filter RelativePath=".\Checkin" Toggle="true" />
+                    <Filter RelativePath=".\EveryDay" Toggle="true" />
+                    <Filter RelativePath=".\extern" Toggle="true" />
+                    <Filter RelativePath=".\feedback" Toggle="true" />
+                    <Filter RelativePath=".\Friend" Toggle="true" />
+                    <Filter RelativePath=".\GameList" Toggle="true" />
+                    <Filter RelativePath=".\General" Toggle="true" />
+                    <Filter RelativePath=".\Information" Toggle="true" />
+                    <Filter RelativePath=".\Logon" Toggle="true" />
+                    <Filter RelativePath=".\modify" Toggle="true" />
+                    <Filter RelativePath=".\Option" Toggle="true" />
+                    <Filter RelativePath=".\OrderRecord" Toggle="true" />
+                    <Filter RelativePath=".\plaza" Toggle="false" >
+                        <Filter RelativePath=".\newPic" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\public" Toggle="true" />
+                    <Filter RelativePath=".\Rank" Toggle="true" />
+                    <Filter RelativePath=".\Regist" Toggle="true" />
+                    <Filter RelativePath=".\Room" Toggle="true" />
+                    <Filter RelativePath=".\RoomList" Toggle="true" />
+                    <Filter RelativePath=".\Service" Toggle="true" />
+                    <Filter RelativePath=".\Shop" Toggle="false" >
+                        <Filter RelativePath=".\Detail" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\sound" Toggle="true" />
+                    <Filter RelativePath=".\table" Toggle="true" />
+                    <Filter RelativePath=".\Task" Toggle="true" />
+                    <Filter RelativePath=".\userinfo" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\src" Toggle="false" >
+                    <Filter RelativePath=".\external" Toggle="false" >
+                        <Filter RelativePath=".\platform" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\gamemodel" Toggle="true" />
+                    <Filter RelativePath=".\header" Toggle="true" />
+                    <Filter RelativePath=".\plaza" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="true" />
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <Filter RelativePath=".\friend" Toggle="true" />
+                                <Filter RelativePath=".\game" Toggle="true" />
+                                <Filter RelativePath=".\logon" Toggle="true" />
+                                <Filter RelativePath=".\other" Toggle="true" />
+                                <Filter RelativePath=".\plaza" Toggle="true" />
+                                <Filter RelativePath=".\room" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\privatemode" Toggle="false" >
+                        <Filter RelativePath=".\header" Toggle="true" />
+                        <Filter RelativePath=".\plaza" Toggle="false" >
+                            <Filter RelativePath=".\res" Toggle="false" >
+                                <Filter RelativePath=".\room" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\src" Toggle="false" >
+                                <Filter RelativePath=".\models" Toggle="true" />
+                                <Filter RelativePath=".\views" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\command" Toggle="true" />
+            <Filter RelativePath=".\game" Toggle="false" >
+                <Filter RelativePath=".\qipai" Toggle="false" >
+                    <Filter RelativePath=".\land" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\privateroom" Toggle="false" >
+                                <Filter RelativePath=".\game" Toggle="true" />
+                                <Filter RelativePath=".\game11" Toggle="true" />
+                                <Filter RelativePath=".\room" Toggle="true" />
+                                <Filter RelativePath=".\room111" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\public_res" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\setting" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="false" >
+                                <Filter RelativePath=".\0" Toggle="true" />
+                                <Filter RelativePath=".\1" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\privateroom" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="false" >
+                                    <Filter RelativePath=".\gamecard" Toggle="true" />
+                                </Filter>
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\yule" Toggle="false" >
+                    <Filter RelativePath=".\animalbattle" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\baccaratnew" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\bank" Toggle="true" />
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\public_res" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\setting" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="false" >
+                                    <Filter RelativePath=".\gamecard" Toggle="true" />
+                                    <Filter RelativePath=".\userlist" Toggle="true" />
+                                </Filter>
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\egyptslots" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\botton" Toggle="false" >
+                                <Filter RelativePath=".\yaxian" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\common" Toggle="true" />
+                            <Filter RelativePath=".\game1" Toggle="false" >
+                                <Filter RelativePath=".\gameAction" Toggle="true" />
+                                <Filter RelativePath=".\itemAction" Toggle="true" />
+                                <Filter RelativePath=".\prizeLine" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\game2" Toggle="false" >
+                                <Filter RelativePath=".\dealer" Toggle="true" />
+                                <Filter RelativePath=".\desk" Toggle="true" />
+                                <Filter RelativePath=".\gold_action" Toggle="true" />
+                                <Filter RelativePath=".\left" Toggle="true" />
+                                <Filter RelativePath=".\right" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\game3" Toggle="false" >
+                                <Filter RelativePath=".\icon" Toggle="true" />
+                                <Filter RelativePath=".\times" Toggle="true" />
+                                <Filter RelativePath=".\time_light" Toggle="true" />
+                                <Filter RelativePath=".\tips" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\helpImage" Toggle="true" />
+                            <Filter RelativePath=".\loading" Toggle="true" />
+                            <Filter RelativePath=".\res" Toggle="false" >
+                                <Filter RelativePath=".\bigWin" Toggle="true" />
+                                <Filter RelativePath=".\mageWin" Toggle="true" />
+                                <Filter RelativePath=".\top" Toggle="true" />
+                                <Filter RelativePath=".\treasure" Toggle="false" >
+                                    <Filter RelativePath=".\boxShake" Toggle="false" >
+                                        <Filter RelativePath=".\1" Toggle="true" />
+                                        <Filter RelativePath=".\2" Toggle="true" />
+                                        <Filter RelativePath=".\3" Toggle="true" />
+                                        <Filter RelativePath=".\4" Toggle="true" />
+                                    </Filter>
+                                    <Filter RelativePath=".\explode" Toggle="true" />
+                                    <Filter RelativePath=".\openBox" Toggle="true" />
+                                </Filter>
+                            </Filter>
+                            <Filter RelativePath=".\roleItem" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\setting" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\fruitforest" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\botton" Toggle="true" />
+                            <Filter RelativePath=".\common" Toggle="true" />
+                            <Filter RelativePath=".\game1" Toggle="false" >
+                                <Filter RelativePath=".\boxShake" Toggle="true" />
+                                <Filter RelativePath=".\explode" Toggle="true" />
+                                <Filter RelativePath=".\gameAction" Toggle="true" />
+                                <Filter RelativePath=".\itemAction" Toggle="true" />
+                                <Filter RelativePath=".\Luckyapple" Toggle="true" />
+                                <Filter RelativePath=".\prizeLine" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\game2" Toggle="false" >
+                                <Filter RelativePath=".\dealer" Toggle="true" />
+                                <Filter RelativePath=".\desk" Toggle="true" />
+                                <Filter RelativePath=".\gold_action" Toggle="true" />
+                                <Filter RelativePath=".\left" Toggle="true" />
+                                <Filter RelativePath=".\right" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\game3" Toggle="false" >
+                                <Filter RelativePath=".\icon" Toggle="true" />
+                                <Filter RelativePath=".\times" Toggle="true" />
+                                <Filter RelativePath=".\time_light" Toggle="true" />
+                                <Filter RelativePath=".\tips" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\loading" Toggle="true" />
+                            <Filter RelativePath=".\res" Toggle="false" >
+                                <Filter RelativePath=".\freeEffect" Toggle="true" />
+                                <Filter RelativePath=".\freeNum" Toggle="true" />
+                                <Filter RelativePath=".\hudie" Toggle="true" />
+                                <Filter RelativePath=".\random" Toggle="true" />
+                                <Filter RelativePath=".\treasure" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\roleItem" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\setting" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\hkfivecardnew" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\animation" Toggle="true" />
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\set" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\luxurycar" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\game_res" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\set_res" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\oxbattle" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\game_res" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\oxex" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\animation_banker" Toggle="true" />
+                            <Filter RelativePath=".\animation_blue" Toggle="true" />
+                            <Filter RelativePath=".\animation_faceFlash" Toggle="true" />
+                            <Filter RelativePath=".\animation_lose" Toggle="true" />
+                            <Filter RelativePath=".\animation_start" Toggle="true" />
+                            <Filter RelativePath=".\animation_victory" Toggle="true" />
+                            <Filter RelativePath=".\animation_yellow" Toggle="true" />
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\sound" Toggle="false" >
+                                <Filter RelativePath=".\BOY" Toggle="true" />
+                                <Filter RelativePath=".\GIRL" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\oxnew" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\animation_banker" Toggle="true" />
+                            <Filter RelativePath=".\animation_blue" Toggle="true" />
+                            <Filter RelativePath=".\animation_faceFlash" Toggle="true" />
+                            <Filter RelativePath=".\animation_lose" Toggle="true" />
+                            <Filter RelativePath=".\animation_start" Toggle="true" />
+                            <Filter RelativePath=".\animation_victory" Toggle="true" />
+                            <Filter RelativePath=".\animation_yellow" Toggle="true" />
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\privateroom" Toggle="false" >
+                                <Filter RelativePath=".\game" Toggle="true" />
+                                <Filter RelativePath=".\room" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\sound" Toggle="false" >
+                                <Filter RelativePath=".\BOY" Toggle="true" />
+                                <Filter RelativePath=".\GIRL" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\privateroom" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\oxsixex" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\Default" Toggle="true" />
+                            <Filter RelativePath=".\game" Toggle="false" >
+                                <Filter RelativePath=".\csb" Toggle="true" />
+                                <Filter RelativePath=".\public_res" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\public" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\sound" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\netMsgBean" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\bean" Toggle="true" />
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\sicbobattle" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\bank" Toggle="true" />
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\set" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="false" >
+                                    <Filter RelativePath=".\userlist" Toggle="true" />
+                                </Filter>
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\sparrowhz" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\Animate_sice_red" Toggle="true" />
+                            <Filter RelativePath=".\Animate_sice_white" Toggle="true" />
+                            <Filter RelativePath=".\game" Toggle="false" >
+                                <Filter RelativePath=".\font_big" Toggle="true" />
+                                <Filter RelativePath=".\font_middle" Toggle="true" />
+                                <Filter RelativePath=".\font_small" Toggle="true" />
+                                <Filter RelativePath=".\font_small_side" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\gameResult" Toggle="true" />
+                            <Filter RelativePath=".\privateroom" Toggle="false" >
+                                <Filter RelativePath=".\privateRoom" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\sound" Toggle="false" >
+                                <Filter RelativePath=".\BOY" Toggle="true" />
+                                <Filter RelativePath=".\GIRL" Toggle="true" />
+                                <Filter RelativePath=".\PhraseVoice" Toggle="false" >
+                                    <Filter RelativePath=".\BOY" Toggle="true" />
+                                    <Filter RelativePath=".\GIRL" Toggle="true" />
+                                </Filter>
+                            </Filter>
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\privateroom" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\watermargin" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\botton" Toggle="true" />
+                            <Filter RelativePath=".\common" Toggle="true" />
+                            <Filter RelativePath=".\game1" Toggle="false" >
+                                <Filter RelativePath=".\gameAction" Toggle="true" />
+                                <Filter RelativePath=".\itemAction" Toggle="true" />
+                                <Filter RelativePath=".\prizeLine" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\game2" Toggle="false" >
+                                <Filter RelativePath=".\dealer" Toggle="true" />
+                                <Filter RelativePath=".\desk" Toggle="true" />
+                                <Filter RelativePath=".\gold_action" Toggle="true" />
+                                <Filter RelativePath=".\left" Toggle="true" />
+                                <Filter RelativePath=".\right" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\game3" Toggle="false" >
+                                <Filter RelativePath=".\icon" Toggle="true" />
+                                <Filter RelativePath=".\times" Toggle="true" />
+                                <Filter RelativePath=".\time_light" Toggle="true" />
+                                <Filter RelativePath=".\tips" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\loading" Toggle="true" />
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\setting" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\zhajinhua" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\privateroom" Toggle="true" >
+                                <Filter RelativePath=".\game" Toggle="true" />
+                                <Filter RelativePath=".\room" Toggle="true" />
+                            </Filter>
+                            <Filter RelativePath=".\roomlist" Toggle="true" />
+                            <Filter RelativePath=".\sound_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="true" />
+                            <Filter RelativePath=".\privateroom" Toggle="true" />
+                            <Filter RelativePath=".\views" Toggle="true" >
+                                <Filter RelativePath=".\layer" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\client" Toggle="false" >
+            <Filter RelativePath=".\res" Toggle="true" >
+                <Filter RelativePath=".\Agent" Toggle="true" />
+                <Filter RelativePath=".\Bag" Toggle="true" />
+                <Filter RelativePath=".\Bank" Toggle="true" />
+                <Filter RelativePath=".\BankRecord" Toggle="true" />
+                <Filter RelativePath=".\Binding" Toggle="true" />
+                <Filter RelativePath=".\Checkin" Toggle="true" />
+                <Filter RelativePath=".\EveryDay" Toggle="true" />
+                <Filter RelativePath=".\extern" Toggle="true" />
+                <Filter RelativePath=".\feedback" Toggle="true" />
+                <Filter RelativePath=".\Friend" Toggle="true" />
+                <Filter RelativePath=".\GameList" Toggle="true" />
+                <Filter RelativePath=".\General" Toggle="true" />
+                <Filter RelativePath=".\Information" Toggle="true" />
+                <Filter RelativePath=".\Logon" Toggle="true" />
+                <Filter RelativePath=".\modify" Toggle="true" />
+                <Filter RelativePath=".\Option" Toggle="true" />
+                <Filter RelativePath=".\OrderRecord" Toggle="true" />
+                <Filter RelativePath=".\plaza" Toggle="false" >
+                    <Filter RelativePath=".\newPic" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\public" Toggle="true" />
+                <Filter RelativePath=".\Rank" Toggle="true" />
+                <Filter RelativePath=".\Regist" Toggle="true" />
+                <Filter RelativePath=".\Room" Toggle="true" />
+                <Filter RelativePath=".\RoomList" Toggle="true" />
+                <Filter RelativePath=".\Service" Toggle="true" />
+                <Filter RelativePath=".\Shop" Toggle="false" >
+                    <Filter RelativePath=".\Detail" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\sound" Toggle="true" />
+                <Filter RelativePath=".\table" Toggle="true" />
+                <Filter RelativePath=".\Task" Toggle="true" />
+                <Filter RelativePath=".\userinfo" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\src" Toggle="false" >
+                <Filter RelativePath=".\external" Toggle="true" >
+                    <LuaFile RelativePath=".\AnimationMgr.lua" />
+                    <LuaFile RelativePath=".\ClipText.lua" />
+                    <LuaFile RelativePath=".\ExternalFun.lua" />
+                    <LuaFile RelativePath=".\HeadSprite.lua" />
+                    <LuaFile RelativePath=".\MultiPlatform.lua" />
+                    <LuaFile RelativePath=".\NotifyMgr.lua" />
+                    <LuaFile RelativePath=".\PopupInfoHead.lua" />
+                    <LuaFile RelativePath=".\PopupInfoLayer.lua" />
+                    <Filter RelativePath=".\platform" Toggle="false" >
+                        <LuaFile RelativePath=".\Bridge_android.lua" />
+                        <LuaFile RelativePath=".\Bridge_ios.lua" />
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\gamemodel" Toggle="true" >
+                    <LuaFile RelativePath=".\GameModel.lua" />
+                    <LuaFile RelativePath=".\GameRoomLayerModel.lua" />
+                </Filter>
+                <Filter RelativePath=".\header" Toggle="true" >
+                    <LuaFile RelativePath=".\CMD_ChatServer.lua" />
+                    <LuaFile RelativePath=".\CMD_GameServer.lua" />
+                    <LuaFile RelativePath=".\CMD_LogonServer.lua" />
+                </Filter>
+                <Filter RelativePath=".\plaza" Toggle="false" >
+                    <Filter RelativePath=".\models" Toggle="false" >
+                        <LuaFile RelativePath=".\BankFrame.lua" />
+                        <LuaFile RelativePath=".\BaseFrame.lua" />
+                        <LuaFile RelativePath=".\CheckinFrame.lua" />
+                        <LuaFile RelativePath=".\ClientUserItem.lua" />
+                        <LuaFile RelativePath=".\FriendMgr.lua" />
+                        <LuaFile RelativePath=".\GameFrameEngine.lua" />
+                        <LuaFile RelativePath=".\GameServerItem.lua" />
+                        <LuaFile RelativePath=".\GlobalUserItem.lua" />
+                        <LuaFile RelativePath=".\LevelFrame.lua" />
+                        <LuaFile RelativePath=".\LogonFrame.lua" />
+                        <LuaFile RelativePath=".\ModifyFrame.lua" />
+                        <LuaFile RelativePath=".\ShopDetailFrame.lua" />
+                        <LuaFile RelativePath=".\TaskFrame.lua" />
+                        <LuaFile RelativePath=".\TaskItem.lua" />
+                        <LuaFile RelativePath=".\yl.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\views" Toggle="false" >
+                        <LuaFile RelativePath=".\ClientScene.lua" />
+                        <LuaFile RelativePath=".\ForestDanceScene.lua" />
+                        <LuaFile RelativePath=".\LogonScene.lua" />
+                        <LuaFile RelativePath=".\UpdateScene.lua" />
+                        <Filter RelativePath=".\layer" Toggle="true" >
+                            <Filter RelativePath=".\friend" Toggle="true" >
+                                <LuaFile RelativePath=".\FriendChatList.lua" />
+                                <LuaFile RelativePath=".\FriendLayer.lua" />
+                                <LuaFile RelativePath=".\FriendListCell.lua" />
+                                <LuaFile RelativePath=".\FriendQueryDialog.lua" />
+                                <LuaFile RelativePath=".\FriendShareListLayer.lua" />
+                                <LuaFile RelativePath=".\NearFriendListLayer.lua" />
+                                <LuaFile RelativePath=".\TrumpetSendLayer.lua" />
+                            </Filter>
+                            <Filter RelativePath=".\game" Toggle="true" >
+                                <LuaFile RelativePath=".\GameChatLayer.lua" />
+                                <LuaFile RelativePath=".\VoiceRecorderKit.lua" />
+                            </Filter>
+                            <Filter RelativePath=".\logon" Toggle="true" >
+                                <LuaFile RelativePath=".\LogonView.lua" />
+                                <LuaFile RelativePath=".\RegisterView.lua" />
+                            </Filter>
+                            <Filter RelativePath=".\other" Toggle="true" >
+                                <LuaFile RelativePath=".\OptionLayer.lua" />
+                                <LuaFile RelativePath=".\RichLabel.lua" />
+                                <LuaFile RelativePath=".\ServiceLayer.lua" />
+                            </Filter>
+                            <Filter RelativePath=".\plaza" Toggle="true" >
+                                <LuaFile RelativePath=".\AgentLayer.lua" />
+                                <LuaFile RelativePath=".\BagDetailLayer.lua" />
+                                <LuaFile RelativePath=".\BagLayer.lua" />
+                                <LuaFile RelativePath=".\BagTransLayer.lua" />
+                                <LuaFile RelativePath=".\BankLayer.lua" />
+                                <LuaFile RelativePath=".\BankRecordLayer.lua" />
+                                <LuaFile RelativePath=".\BindingLayer.lua" />
+                                <LuaFile RelativePath=".\BindingRegisterLayer.lua" />
+                                <LuaFile RelativePath=".\CheckinLayer.lua" />
+                                <LuaFile RelativePath=".\EveryDayLayer.lua" />
+                                <LuaFile RelativePath=".\FaqLayer.lua" />
+                                <LuaFile RelativePath=".\FeedbackLayer.lua" />
+                                <LuaFile RelativePath=".\GameListLayer.lua" />
+                                <LuaFile RelativePath=".\IntroduceLayer.lua" />
+                                <LuaFile RelativePath=".\ModifyPasswdLayer.lua" />
+                                <LuaFile RelativePath=".\OrderRecordLayer.lua" />
+                                <LuaFile RelativePath=".\RankingListLayer.lua" />
+                                <LuaFile RelativePath=".\RoomListLayer.lua" />
+                                <LuaFile RelativePath=".\ShopDetailLayer.lua" />
+                                <LuaFile RelativePath=".\ShopLayer.lua" />
+                                <LuaFile RelativePath=".\TableLayer.lua" />
+                                <LuaFile RelativePath=".\TargetShareLayer.lua" />
+                                <LuaFile RelativePath=".\TaskLayer.lua" />
+                                <LuaFile RelativePath=".\UserInfoLayer.lua" />
+                                <LuaFile RelativePath=".\WebViewLayer.lua" />
+                            </Filter>
+                            <Filter RelativePath=".\room" Toggle="false" >
+                                <LuaFile RelativePath=".\RoomLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\privatemode" Toggle="true" >
+                    <Filter RelativePath=".\header" Toggle="false" >
+                        <LuaFile RelativePath=".\CMD_Private.lua" />
+                        <LuaFile RelativePath=".\Define_Private.lua" />
+                        <LuaFile RelativePath=".\Struct_Private.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\plaza" Toggle="false" >
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\room" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\src" Toggle="false" >
+                            <Filter RelativePath=".\models" Toggle="false" >
+                                <LuaFile RelativePath=".\CreateLayerModel.lua" />
+                                <LuaFile RelativePath=".\PriFrame.lua" />
+                                <LuaFile RelativePath=".\PriRoom.lua" />
+                                <LuaFile RelativePath=".\PrivateLayerModel.lua" />
+                            </Filter>
+                            <Filter RelativePath=".\views" Toggle="false" >
+                                <LuaFile RelativePath=".\PriRoomListLayer.lua" />
+                                <LuaFile RelativePath=".\RoomCardShopLayer.lua" />
+                                <LuaFile RelativePath=".\RoomCreateResult.lua" />
+                                <LuaFile RelativePath=".\RoomDetailLayer.lua" />
+                                <LuaFile RelativePath=".\RoomIdInputLayer.lua" />
+                                <LuaFile RelativePath=".\RoomRecordLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\command" Toggle="true" >
+            <LuaFile RelativePath=".\extra_command.lua" />
+        </Filter>
+        <Filter RelativePath=".\downrec" Toggle="true" />
+        <Filter RelativePath=".\friend" Toggle="true" >
+            <Filter RelativePath=".\5134" Toggle="true" />
+            <Filter RelativePath=".\6294" Toggle="true" />
+            <Filter RelativePath=".\6295" Toggle="true" />
+            <Filter RelativePath=".\5195" Toggle="true" />
+            <Filter RelativePath=".\6293" Toggle="true" />
+            <Filter RelativePath=".\6305" Toggle="true" />
+        </Filter>
+        <Filter RelativePath=".\game" Toggle="false" >
+            <Filter RelativePath=".\qipai" Toggle="true" >
+                <Filter RelativePath=".\land" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\game" Toggle="true" />
+                        <Filter RelativePath=".\privateroom" Toggle="false" >
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\game11" Toggle="true" />
+                            <Filter RelativePath=".\room" Toggle="true" />
+                            <Filter RelativePath=".\room111" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\public_res" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\setting" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" >
+                            <Filter RelativePath=".\0" Toggle="true" />
+                            <Filter RelativePath=".\1" Toggle="true" />
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\Define.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\privateroom" Toggle="false" >
+                            <LuaFile RelativePath=".\PriGameLayer.lua" />
+                            <LuaFile RelativePath=".\PriRoomCreateLayer.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\GameResultLayer.lua" />
+                                <LuaFile RelativePath=".\GameRoleItem.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                                <Filter RelativePath=".\gamecard" Toggle="false" >
+                                    <LuaFile RelativePath=".\CardsNode.lua" />
+                                    <LuaFile RelativePath=".\CardSprite.lua" />
+                                </Filter>
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\yule" Toggle="false" >
+                <Filter RelativePath=".\animalbattle" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                            <LuaFile RelativePath=".\ZhuanPanAni.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\BankLayer.lua" />
+                                <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\MenuLayer.lua" />
+                                <LuaFile RelativePath=".\PlayerlistLayer.lua" />
+                                <LuaFile RelativePath=".\PopupLayer.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\baccaratnew" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\bank" Toggle="true" />
+                        <Filter RelativePath=".\game" Toggle="true" />
+                        <Filter RelativePath=".\public_res" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\setting" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\bjlGameDefine.lua" />
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameFrame.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\GameCardLayer.lua" />
+                                <LuaFile RelativePath=".\GameResultLayer.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                                <LuaFile RelativePath=".\SitRoleNode.lua" />
+                                <LuaFile RelativePath=".\WallBillLayer.lua" />
+                                <Filter RelativePath=".\gamecard" Toggle="false" >
+                                    <LuaFile RelativePath=".\CardsNode.lua" />
+                                    <LuaFile RelativePath=".\CardSprite.lua" />
+                                </Filter>
+                                <Filter RelativePath=".\userlist" Toggle="false" >
+                                    <LuaFile RelativePath=".\ApplyListLayer.lua" />
+                                    <LuaFile RelativePath=".\UserItem.lua" />
+                                    <LuaFile RelativePath=".\UserListLayer.lua" />
+                                </Filter>
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\egyptslots" Toggle="false" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\botton" Toggle="false" >
+                            <Filter RelativePath=".\yaxian" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\common" Toggle="true" />
+                        <Filter RelativePath=".\game1" Toggle="false" >
+                            <Filter RelativePath=".\gameAction" Toggle="true" />
+                            <Filter RelativePath=".\itemAction" Toggle="true" />
+                            <Filter RelativePath=".\prizeLine" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\game2" Toggle="false" >
+                            <Filter RelativePath=".\dealer" Toggle="true" />
+                            <Filter RelativePath=".\desk" Toggle="true" />
+                            <Filter RelativePath=".\gold_action" Toggle="true" />
+                            <Filter RelativePath=".\left" Toggle="true" />
+                            <Filter RelativePath=".\right" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\game3" Toggle="false" >
+                            <Filter RelativePath=".\icon" Toggle="true" />
+                            <Filter RelativePath=".\times" Toggle="true" />
+                            <Filter RelativePath=".\time_light" Toggle="true" />
+                            <Filter RelativePath=".\tips" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\helpImage" Toggle="true" />
+                        <Filter RelativePath=".\loading" Toggle="true" />
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\bigWin" Toggle="true" />
+                            <Filter RelativePath=".\mageWin" Toggle="true" />
+                            <Filter RelativePath=".\top" Toggle="true" />
+                            <Filter RelativePath=".\treasure" Toggle="false" >
+                                <Filter RelativePath=".\boxShake" Toggle="false" >
+                                    <Filter RelativePath=".\1" Toggle="true" />
+                                    <Filter RelativePath=".\2" Toggle="true" />
+                                    <Filter RelativePath=".\3" Toggle="true" />
+                                    <Filter RelativePath=".\4" Toggle="true" />
+                                </Filter>
+                                <Filter RelativePath=".\explode" Toggle="true" />
+                                <Filter RelativePath=".\openBox" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                        <Filter RelativePath=".\roleItem" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\setting" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\FreeScoreLayer.lua" />
+                                <LuaFile RelativePath=".\GameItem.lua" />
+                                <LuaFile RelativePath=".\GameRoleItem.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\HelpLayer.lua" />
+                                <LuaFile RelativePath=".\ItemIcon.lua" />
+                                <LuaFile RelativePath=".\PreLoading.lua" />
+                                <LuaFile RelativePath=".\ScollNumLayer.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                                <LuaFile RelativePath=".\Treasure.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\fruitforest" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\botton" Toggle="true" />
+                        <Filter RelativePath=".\common" Toggle="true" />
+                        <Filter RelativePath=".\game1" Toggle="false" >
+                            <Filter RelativePath=".\boxShake" Toggle="true" />
+                            <Filter RelativePath=".\explode" Toggle="true" />
+                            <Filter RelativePath=".\gameAction" Toggle="true" />
+                            <Filter RelativePath=".\itemAction" Toggle="true" />
+                            <Filter RelativePath=".\Luckyapple" Toggle="true" />
+                            <Filter RelativePath=".\prizeLine" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\game2" Toggle="false" >
+                            <Filter RelativePath=".\dealer" Toggle="true" />
+                            <Filter RelativePath=".\desk" Toggle="true" />
+                            <Filter RelativePath=".\gold_action" Toggle="true" />
+                            <Filter RelativePath=".\left" Toggle="true" />
+                            <Filter RelativePath=".\right" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\game3" Toggle="false" >
+                            <Filter RelativePath=".\icon" Toggle="true" />
+                            <Filter RelativePath=".\times" Toggle="true" />
+                            <Filter RelativePath=".\time_light" Toggle="true" />
+                            <Filter RelativePath=".\tips" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\loading" Toggle="true" />
+                        <Filter RelativePath=".\res" Toggle="false" >
+                            <Filter RelativePath=".\freeEffect" Toggle="true" />
+                            <Filter RelativePath=".\freeNum" Toggle="true" />
+                            <Filter RelativePath=".\hudie" Toggle="true" />
+                            <Filter RelativePath=".\random" Toggle="true" />
+                            <Filter RelativePath=".\treasure" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\roleItem" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\setting" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="true" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\FreeScoreLayer.lua" />
+                                <LuaFile RelativePath=".\FruitItem.lua" />
+                                <LuaFile RelativePath=".\FruitTreasure.lua" />
+                                <LuaFile RelativePath=".\GameItem.lua" />
+                                <LuaFile RelativePath=".\GameRoleItem.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\HelpLayer.lua" />
+                                <LuaFile RelativePath=".\PreLoading.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\hkfivecardnew" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\animation" Toggle="true" />
+                        <Filter RelativePath=".\game" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\set" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\CardSprite.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\luxurycar" Toggle="false" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\game_res" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\set_res" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameFrame.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\BankerList.lua" />
+                                <LuaFile RelativePath=".\Chat.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                                <LuaFile RelativePath=".\UserList.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\oxbattle" Toggle="false" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\game_res" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameFrame.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\ApplyListLayer.lua" />
+                                <LuaFile RelativePath=".\CardSprite.lua" />
+                                <LuaFile RelativePath=".\GameRecordLayer.lua" />
+                                <LuaFile RelativePath=".\GameResultLayer.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                                <LuaFile RelativePath=".\SitRoleNode.lua" />
+                                <LuaFile RelativePath=".\UserItem.lua" />
+                                <LuaFile RelativePath=".\UserListLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\oxex" Toggle="false" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\animation_banker" Toggle="true" />
+                        <Filter RelativePath=".\animation_blue" Toggle="true" />
+                        <Filter RelativePath=".\animation_faceFlash" Toggle="true" />
+                        <Filter RelativePath=".\animation_lose" Toggle="true" />
+                        <Filter RelativePath=".\animation_start" Toggle="true" />
+                        <Filter RelativePath=".\animation_victory" Toggle="true" />
+                        <Filter RelativePath=".\animation_yellow" Toggle="true" />
+                        <Filter RelativePath=".\game" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\sound" Toggle="false" >
+                            <Filter RelativePath=".\BOY" Toggle="true" />
+                            <Filter RelativePath=".\GIRL" Toggle="true" />
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SetLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\oxnew" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\animation_banker" Toggle="true" />
+                        <Filter RelativePath=".\animation_blue" Toggle="true" />
+                        <Filter RelativePath=".\animation_faceFlash" Toggle="true" />
+                        <Filter RelativePath=".\animation_lose" Toggle="true" />
+                        <Filter RelativePath=".\animation_start" Toggle="true" />
+                        <Filter RelativePath=".\animation_victory" Toggle="true" />
+                        <Filter RelativePath=".\animation_yellow" Toggle="true" />
+                        <Filter RelativePath=".\game" Toggle="true" />
+                        <Filter RelativePath=".\privateroom" Toggle="false" >
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\room" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\sound" Toggle="false" >
+                            <Filter RelativePath=".\BOY" Toggle="true" />
+                            <Filter RelativePath=".\GIRL" Toggle="true" />
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\privateroom" Toggle="false" >
+                            <LuaFile RelativePath=".\PriGameLayer.lua" />
+                            <LuaFile RelativePath=".\PriRoomCreateLayer.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SetLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\oxsixex" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\Default" Toggle="true" />
+                        <Filter RelativePath=".\game" Toggle="false" >
+                            <Filter RelativePath=".\csb" Toggle="true" />
+                            <Filter RelativePath=".\public_res" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\public" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\sound" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\netMsgBean" Toggle="false" >
+                            <LuaFile RelativePath=".\NNGameNetModel.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomLayer.lua" />
+                            <LuaFile RelativePath=".\NGResources.lua" />
+                            <Filter RelativePath=".\bean" Toggle="false" >
+                                <LuaFile RelativePath=".\CardSprite.lua" />
+                                <LuaFile RelativePath=".\QScrollText.lua" />
+                            </Filter>
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\QBasePlayer.lua" />
+                                <LuaFile RelativePath=".\QMyPlayer.lua" />
+                                <LuaFile RelativePath=".\QOtherPlayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\sicbobattle" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\bank" Toggle="true" />
+                        <Filter RelativePath=".\game" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\set" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\118_GameFrame.lua" />
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameDefine.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\BtnListLayer.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SetLayer.lua" />
+                                <Filter RelativePath=".\userlist" Toggle="false" >
+                                    <LuaFile RelativePath=".\ApplyListLayer.lua" />
+                                    <LuaFile RelativePath=".\UserItem.lua" />
+                                    <LuaFile RelativePath=".\UserListLayer.lua" />
+                                </Filter>
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\sparrowhz" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\Animate_sice_red" Toggle="true" />
+                        <Filter RelativePath=".\Animate_sice_white" Toggle="true" />
+                        <Filter RelativePath=".\game" Toggle="false" >
+                            <Filter RelativePath=".\font_big" Toggle="true" />
+                            <Filter RelativePath=".\font_middle" Toggle="true" />
+                            <Filter RelativePath=".\font_small" Toggle="true" />
+                            <Filter RelativePath=".\font_small_side" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\gameResult" Toggle="true" />
+                        <Filter RelativePath=".\privateroom" Toggle="false" >
+                            <Filter RelativePath=".\privateRoom" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\sound" Toggle="false" >
+                            <Filter RelativePath=".\BOY" Toggle="true" />
+                            <Filter RelativePath=".\GIRL" Toggle="true" />
+                            <Filter RelativePath=".\PhraseVoice" Toggle="false" >
+                                <Filter RelativePath=".\BOY" Toggle="true" />
+                                <Filter RelativePath=".\GIRL" Toggle="true" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\privateroom" Toggle="false" >
+                            <LuaFile RelativePath=".\PriGameLayer.lua" />
+                            <LuaFile RelativePath=".\PriRoomCreateLayer.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\CardLayer.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\ResultLayer.lua" />
+                                <LuaFile RelativePath=".\SetLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\watermargin" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\botton" Toggle="true" />
+                        <Filter RelativePath=".\common" Toggle="true" />
+                        <Filter RelativePath=".\game1" Toggle="false" >
+                            <Filter RelativePath=".\gameAction" Toggle="true" />
+                            <Filter RelativePath=".\itemAction" Toggle="true" />
+                            <Filter RelativePath=".\prizeLine" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\game2" Toggle="false" >
+                            <Filter RelativePath=".\dealer" Toggle="true" />
+                            <Filter RelativePath=".\desk" Toggle="true" />
+                            <Filter RelativePath=".\gold_action" Toggle="true" />
+                            <Filter RelativePath=".\left" Toggle="true" />
+                            <Filter RelativePath=".\right" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\game3" Toggle="false" >
+                            <Filter RelativePath=".\icon" Toggle="true" />
+                            <Filter RelativePath=".\times" Toggle="true" />
+                            <Filter RelativePath=".\time_light" Toggle="true" />
+                            <Filter RelativePath=".\tips" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\loading" Toggle="true" />
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\setting" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="false" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomListLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\GameItem.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\HelpLayer.lua" />
+                                <LuaFile RelativePath=".\PreLoading.lua" />
+                                <LuaFile RelativePath=".\SettingLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\zhajinhua" Toggle="true" >
+                    <Filter RelativePath=".\res" Toggle="false" >
+                        <Filter RelativePath=".\privateroom" Toggle="true" >
+                            <Filter RelativePath=".\game" Toggle="true" />
+                            <Filter RelativePath=".\room" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\roomlist" Toggle="true" />
+                        <Filter RelativePath=".\sound_res" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\src" Toggle="false" >
+                        <Filter RelativePath=".\models" Toggle="true" >
+                            <LuaFile RelativePath=".\CMD_Game.lua" />
+                            <LuaFile RelativePath=".\GameLogic.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\privateroom" Toggle="false" >
+                            <LuaFile RelativePath=".\PriGameLayer.lua" />
+                            <LuaFile RelativePath=".\PriRoomCreateLayer.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\views" Toggle="false" >
+                            <LuaFile RelativePath=".\GameLayer.lua" />
+                            <LuaFile RelativePath=".\GameRoomLayer.lua" />
+                            <Filter RelativePath=".\layer" Toggle="false" >
+                                <LuaFile RelativePath=".\CompareView.lua" />
+                                <LuaFile RelativePath=".\GameEndView.lua" />
+                                <LuaFile RelativePath=".\GameViewLayer.lua" />
+                                <LuaFile RelativePath=".\SetLayer.lua" />
+                            </Filter>
+                        </Filter>
+                    </Filter>
+                </Filter>
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\log" Toggle="true" >
+            <Filter RelativePath=".\2018-02-08" Toggle="true" >
+                <Filter RelativePath=".\20-59" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\2018-02-09" Toggle="true" >
+                <Filter RelativePath=".\09-48" Toggle="true" />
+                <Filter RelativePath=".\09-50" Toggle="true" />
+                <Filter RelativePath=".\21-36" Toggle="true" />
+                <Filter RelativePath=".\21-37" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\2018-02-10" Toggle="true" >
+                <Filter RelativePath=".\20-00" Toggle="true" />
+                <Filter RelativePath=".\20-01" Toggle="true" />
+                <Filter RelativePath=".\20-02" Toggle="true" />
+                <Filter RelativePath=".\20-10" Toggle="true" />
+                <Filter RelativePath=".\21-51" Toggle="true" />
+                <Filter RelativePath=".\22-01" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\2018-02-12" Toggle="true" >
+                <Filter RelativePath=".\15-56" Toggle="true" />
+                <Filter RelativePath=".\16-01" Toggle="true" />
+                <Filter RelativePath=".\16-02" Toggle="true" />
+                <Filter RelativePath=".\16-04" Toggle="true" />
+                <Filter RelativePath=".\16-05" Toggle="true" />
+                <Filter RelativePath=".\16-32" Toggle="true" />
+                <Filter RelativePath=".\16-58" Toggle="true" />
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\saverec" Toggle="true" />
+    </Filter>
+</Project>

@@ -1,0 +1,4 @@
+[name:游戏中文名, des:md5路径(用于生成md5版本文件), ori:源路径(用于拷贝), zipped:是否添加到压缩列表， folder:目录(用于压缩指定游戏)， primode:是否有私人房]
+name=斗地主,des=client\ciphercode\game\qipai\land,ori=game\qipai\land,folder=land,zipped=0,primode=0
+name=水果乐园,des=client\ciphercode\game\yule\fruitforest,ori=game\yule\fruitforest,folder=fruitforest,zipped=0,primode=0
+name=埃及拉霸,des=client\ciphercode\game\yule\egyptslots,ori=game\yule\egyptslots,folder=egyptslots,zipped=0,primode=0

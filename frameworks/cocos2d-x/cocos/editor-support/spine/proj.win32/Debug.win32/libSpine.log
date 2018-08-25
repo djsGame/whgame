@@ -1,0 +1,47 @@
+﻿  Animation.c
+  AnimationState.c
+  AnimationStateData.c
+  Atlas.c
+  AtlasAttachmentLoader.c
+  Attachment.c
+  AttachmentLoader.c
+  Bone.c
+  BoneData.c
+  BoundingBoxAttachment.c
+  Event.c
+  EventData.c
+  extension.c
+  IkConstraint.c
+  IkConstraintData.c
+  Json.c
+  MeshAttachment.c
+  RegionAttachment.c
+  Skeleton.c
+  SkeletonBounds.c
+  SkeletonData.c
+  SkeletonJson.c
+  Skin.c
+  SkinnedMeshAttachment.c
+  Slot.c
+  SlotData.c
+  PolygonBatch.cpp
+  SkeletonAnimation.cpp
+  SkeletonRenderer.cpp
+  spine-cocos2dx.cpp
+d:\mobile\frameworks\cocos2d-x\cocos\editor-support\spine\skeletonrenderer.cpp(252): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': 被声明为已否决
+  d:\mobile\frameworks\cocos2d-x\cocos\2d\ccdrawingprimitives.h(245): note: 参见“cocos2d::DrawPrimitives::setDrawColor4B”的声明
+d:\mobile\frameworks\cocos2d-x\cocos\editor-support\spine\skeletonrenderer.cpp(265): warning C4996: 'cocos2d::DrawPrimitives::drawPoly': 被声明为已否决
+  d:\mobile\frameworks\cocos2d-x\cocos\2d\ccdrawingprimitives.h(142): note: 参见“cocos2d::DrawPrimitives::drawPoly”的声明
+d:\mobile\frameworks\cocos2d-x\cocos\editor-support\spine\skeletonrenderer.cpp(271): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': 被声明为已否决
+  d:\mobile\frameworks\cocos2d-x\cocos\2d\ccdrawingprimitives.h(245): note: 参见“cocos2d::DrawPrimitives::setDrawColor4B”的声明
+d:\mobile\frameworks\cocos2d-x\cocos\editor-support\spine\skeletonrenderer.cpp(276): warning C4996: 'cocos2d::DrawPrimitives::drawLine': 被声明为已否决
+  d:\mobile\frameworks\cocos2d-x\cocos\2d\ccdrawingprimitives.h(115): note: 参见“cocos2d::DrawPrimitives::drawLine”的声明
+d:\mobile\frameworks\cocos2d-x\cocos\editor-support\spine\skeletonrenderer.cpp(279): warning C4996: 'cocos2d::DrawPrimitives::setPointSize': 被声明为已否决
+  d:\mobile\frameworks\cocos2d-x\cocos\2d\ccdrawingprimitives.h(263): note: 参见“cocos2d::DrawPrimitives::setPointSize”的声明
+d:\mobile\frameworks\cocos2d-x\cocos\editor-support\spine\skeletonrenderer.cpp(280): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': 被声明为已否决
+  d:\mobile\frameworks\cocos2d-x\cocos\2d\ccdrawingprimitives.h(245): note: 参见“cocos2d::DrawPrimitives::setDrawColor4B”的声明
+d:\mobile\frameworks\cocos2d-x\cocos\editor-support\spine\skeletonrenderer.cpp(283): warning C4996: 'cocos2d::DrawPrimitives::drawPoint': 被声明为已否决
+  d:\mobile\frameworks\cocos2d-x\cocos\2d\ccdrawingprimitives.h(100): note: 参见“cocos2d::DrawPrimitives::drawPoint”的声明
+d:\mobile\frameworks\cocos2d-x\cocos\editor-support\spine\skeletonrenderer.cpp(284): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': 被声明为已否决
+  d:\mobile\frameworks\cocos2d-x\cocos\2d\ccdrawingprimitives.h(245): note: 参见“cocos2d::DrawPrimitives::setDrawColor4B”的声明
+  libSpine.vcxproj -> D:\Mobile\frameworks\runtime-src\proj.win32\Debug.win32\libSpine.lib
